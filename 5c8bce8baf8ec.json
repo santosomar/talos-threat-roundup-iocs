@@ -1,0 +1,393 @@
+{
+    "Win.Downloader.Dofoil-6887823-0": {
+        "category": "Downloader",
+        "coverage": {
+            "AMP": true,
+            "CWS": true,
+            "Cloudlock": false,
+            "Email Security": true,
+            "Network Security": true,
+            "Threat Grid": true,
+            "Umbrella": true,
+            "WSA": true
+        },
+        "description": "Dofoil, aka SmokeLoader, is primarily used to download and execute additional malware. Read more about this threat on our blog https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html.",
+        "hashes": ["06141533408e6052c57801bc1a13d9eae0c5473cbd4daefc3c82cc16df02121b", "0da877fa450e61c35f184f935c866b85adf087aa36840c7bb6d4f5e78caeee3d", "10a60d91d0993fc42fc0e2dcaf23c6292a6fe3992d30b9a070aff9e901a476d8", "18a51f34d616573e350344420b4fbca5cf5a22b2c58af39f240beeafeb32272a", "1f361e3172998b311ef8e688807e6e7ab2b1e08ba779518e5d596dac0459c1c9", "20562a37ce8338817ef3b2cf00c9aca6aaa22efb90462d29a8276e6fb4a8b4fd", "284aca36a9bca682b5285d5ce746813b309708d421f4b64f3ad88053a5fb585e", "35923a5c4509b0cb4c0b0d157ba573387b098cc8fea83f91b075c2cd73c0246e", "395c3f755c6350037b89f1147496896938fdc3bda6d3113fde3714696e1c022e", "3c61461aa0f49596538c971740ce8e1b4ba2591233b7f3084acb8b48befde56d", "473df910306146759bc2478ee77f50cbf944e23a37c82f05563902b752a993de", "4de2facda43622ed776a0e38d8c7f913acfb700fbeb454d51199159249023840", "4f05ede1bbf72903141b54089f41b1f5ecfbf68b195acfa0ff73771219ae7245", "52cf86ed74dce82133c38b4cc0e2804878307925c293d00e19bdeabb5e78aa8a", "563a88feb872206c770fd6e9efabe66d48ceb34b4bc5cbc482042e33fe9b76e3", "586e3a4f9bcea6f8759dbb01dceae9c9ec195c9f275c78fd884cb29e3b707c08", "5ede64cb3093932c752defc4223d596fd6733e945d002785f15b4b2756bb899c", "6139f943467db8cfffa485c55c891cce2d181df869fc22e6b4a4bf2361e062a3", "9a8f38571026845836851fa780c25f7f48960b5e248610a42e3ccdad8495852d", "9cbd93cb77e64c6df894a34ad850f1777f7792729e9029ce3fb34dfc807d616e", "9dd88df8e9581bbca947def5ca7c835290a59bfd2e8f7a9647e2e58ad9800fbf", "af8a6165044affaec01d741f87df3688c6da82aa636f7aaafc53cc13e2c616ff", "b5de32f4ad9759d3175a2e55817c1f129645d530503f52a2e01501e9a2dcd78e", "b84b1a2bb33df715eef75ab45554d69efe40704bc59b54a798bbd84c9824ddd8", "b94aa2b5628ad5b1944b92485a760427babe9e4de12b66c8e22d89bf8ba904e6", "baeac3c04823688cd5da050d621fc9132f20136cc57262a18f97a2ce6c1b06f5", "ce248c1619e5fb7c2ee2377cb1f9421e2a303db27f63eb1624f19eac29134702", "d8ff1e7a625fd7c25f5e32f414d9eabe129a112af5c880759d03a09c1da22920", "efe007ceb1824a43732b3c53cdc2c6c8ec72e0d1a367bb042640d3ebae63952a", "f77a9e2154b49ad91c12021c5429f8649c88ff26d52893a51ea2a6342f40b0da"],
+        "iocs": {
+            "domain": [{
+                "host": "pagefinder52[.]uz"
+            }],
+            "file": [{
+                "path": "%LocalAppData%\\Temp\\D19AB989A35F471083DFB"
+            }, {
+                "path": "%AppData%\\D19AB989A35F471083DFB"
+            }, {
+                "path": "%AppData%\\D19AB989A35F471083DFB\\D19AB989A35F471083DFB.exe"
+            }, {
+                "path": "%LocalAppData%\\Temp\\D19AB989A35F471083DFB32"
+            }, {
+                "path": "%LocalAppData%\\Temp\\D19AB989A35F471083DFB64"
+            }],
+            "ip": [{
+                "ip": "51[.]15[.]93[.]62"
+            }],
+            "mutex": [{
+                "name": null
+            }],
+            "registry": []
+        }
+    },
+    "Win.Malware.Emotet-6888316-0": {
+        "category": "Malware",
+        "coverage": {
+            "AMP": true,
+            "CWS": true,
+            "Cloudlock": false,
+            "Email Security": true,
+            "Network Security": true,
+            "Threat Grid": true,
+            "Umbrella": true,
+            "WSA": true
+        },
+        "description": "Emotet is one of the most widely distributed and active malware families today. It is a highly modular threat that can deliver a wide variety of payloads. Emotet is commonly delivered via Microsoft Office documents with macros, sent as attachments on malicious emails.",
+        "hashes": ["14873aa714a65cf71fc4fcf0b22aeb6d98718e56c6b30abf0b88313abb7096cf", "2aa82a27cfbd810db7a1989f7a854dcf8f0470854f64cbe5a6e66b426d4f5d39", "64b55f7724d69e0e5240d0b892fc8f427b1951909160821d890860b9502c0184", "756ce0947db75cee371d64495e3c371a5d81c99191f695568b3fdeadc9c31fb4", "77c23c37835701bea789493bda50a6270f477407afc5a51766124e0d7d98c183", "7a5cc102dd6b2a6a6560cd9413915e9a0331bdb94d9614a5ec8231080b1d47a3", "87c41d1f7fb8539eb5a3c819c89a29d2efdc09c336388b49b4e7ea2fb143a732", "8953cb59046bb2d303057684612a98c3de56e016d7a47c2b47eaa4dddd254f9b", "a267997c229e0ca3dc27d27bf34c55dab32dfc9c3505cd3dcc1d778badf32fee", "a6eb96882eea810dda7cea793c53d0e1cd651d52287c61f641b4891e0c110c1d", "a77d91f122316c2be0e344c8a2de00ef2ac17650c3ab353de6b12c313f2927a8", "c4cd6fbdc2f37be8c6ed3d165839c7f993ca6cc5614e770523ca6fda775819fa", "e33695b999b2a53ebad043fb88165a59c5b623059a2f9b1e3c4aa26226eb5aaa", "e36d39ae360f17a3c1987c71b7c43c537549481cb0e26ab32de3110eeb3417d2", "e82c81df777d002701a31f6942ecfbb72fdf08386e7c4f7520e15eada3c7b649", "f92e9016c5dc3903edf3fd6d1bed1d095da9dbf8e817e6497290aa40f617c776"],
+        "iocs": {
+            "domain": [],
+            "file": [],
+            "ip": [{
+                "ip": "82[.]211[.]30[.]202"
+            }, {
+                "ip": "119[.]59[.]124[.]163"
+            }, {
+                "ip": "37[.]97[.]135[.]82"
+            }, {
+                "ip": "69[.]45[.]19[.]251"
+            }, {
+                "ip": "217[.]13[.]106[.]16"
+            }, {
+                "ip": "160[.]16[.]109[.]161"
+            }],
+            "mutex": [{
+                "name": null
+            }, {
+                "name": null
+            }, {
+                "name": null
+            }, {
+                "name": null
+            }],
+            "registry": []
+        }
+    },
+    "Win.Malware.Ircbot-6887900-0": {
+        "category": "Malware",
+        "coverage": {
+            "AMP": true,
+            "CWS": true,
+            "Cloudlock": false,
+            "Email Security": true,
+            "Network Security": true,
+            "Threat Grid": true,
+            "Umbrella": true,
+            "WSA": true
+        },
+        "description": "Ircbot, also known as Eldorado, is known for injecting into processes, spreading to removable media, and gaining execution via Autorun.inf files.",
+        "hashes": ["0d1408f43b64724f4e1bc689af06c76a7a8bad4f4cc4accb697680827a2e8401", "11f919f38f7ffc654a9ae3ebc00bd8055f0540fc34742c6c41b3a6cc770e86a1", "13ad8720c3dc6997a728d970e7e8d8da3bdf47a9aa7122f2062418efbcba8067", "1450123a608b6f6b0c459e42733c33aef85df3d592424254ad793631c650724d", "176f000c04ad54f98af1b6fa78caeff969ba9fec1747416a6089717208f4e6bb", "224c6cdb3319d4ce8dbddafa7db57357a05ff6d25b3cf938e3a277e83415473a", "22ae2800578ea95c8439851ae40a20535cd13290aa93d78e9fd4f335c7bfcd06", "240865fcbc40ec209ee7ab43f0ac8a11d4c3c0a994b829097d0ee7e7c9cd0398", "25ab25d5887e3786532a15211c54143dffe27b27a1794fc0caa2fac26b814441", "25b97ddb73ec779f09b9d663a1c5695ab1e54857e83a03c719a71c464aa339b7", "34bde6576413b381f10540db6a5b0c0b2e42c60c5f29cb97d35712f38d9b2348", "37b5d81e2b9fb2fa99c5ec7c116675a132485549917ae75f19e9a037e4b85831", "3e537425161e844c07baf229e8e040d2be2337ad465f90082aa143ba890a87ca", "3fd4652e7dd1c445d4541d4da1c6e4a0eb13534579f1ce0c95733721423257b8", "4689813970088424400a2e073afa152d5d1ec8a8a200dbed4da70fcfcdde04d3", "4cecc5c73e73ff45d634919a4546f1f8cfbfb1ba0944da0fafd9ee8383704c1e", "4d8fa8c3d41f0cead59eb47a536dde17c90758872262c1e772ec65da5b5e3a2b", "51f7c74fda3ed980e6172b57d38b230bf77630ad3c687b6457c8a3475cee9b7e", "55eed01902268734a6fad2dc9b7a23bbd3e660f93f848d316468f50f47492ffa", "618798e167c8afd92bac52d42e9cb6d7abc85ff562d67411ee4732c761753670", "6c320dc8cfba148f2fa62eb938b5e9273130960ab65f83d9b754788cd643d1fe", "6dfabdef4c67f0e7770cd07e1ea60ca3f0f1c75e670ea47062086507be61b958", "70cf498d687c2c36198c4102115632debb42780e2e482cc1bfbf7613210cb870", "7dffd571164c077f38221c9a45dcbd36f069fb684c8f4e9164f8cc7a3253d9b9", "83e85a70bef91092a6030a7bd4f8d6caea9f10d58993b1d03321b7083bc6b827", "8e71dbd90b6d7794eda1a75423b86d9ef90ae4346eca932b12feff7e4d124593", "96d9371e634188289ea844397a8db0ee9a83d7e4fe2ccd2c605048cb9e9e2e0e", "a0532230c2ad1bf8c2545893d3311f520c4481eda29d0c22ccf4287b0191ecac", "a4d611f54143c701081f7edaaf7799d362533251fb782c960a84f5f833ad27b4", "a9b1d5ce7085338120cadbeeb04d600ab0657a17305a05ac326c0aa60d08854d", "af7c71cec7f5260cef4aeb028d69701cf47815bf045ef1c155590b2d546bffee", "b72d74f9159fd88d7770a74058c6e23e80d89f028d736a7631e98fc7dbc9f1bd", "b946cf59097791206d15bb0f39a0af9dfbe3a3b414f0c349baee2436df36c12e", "bb48bdc46b123e4734158e7c6cc95bc94fea23a1353753c37e8c5f33a9aacf0d", "ca1d649e564a402f48163479574488098f707ad7605c40054a0b993f06efd95f", "cee7eed6fdd67ec87e65547c0c42bba609c33fd0acc5b26e65b205ff11e4cf46", "d06fae46a34153303db19fae715b1a10c0b73273af5f4b6ec4d768107b0dfaf3", "d2d1140d1c7d0918bb1e5a82263edac750b8729c8b632f90e221ae9c27671494", "d40959243e8bb4fc68c8860d3887c247aeded8bd29cd2a7352e16d72e34f9273", "db5dcc5d151d13bfa7abb01b3c696478fb51fa4c300c5ec6e18f1eaa3a7df972", "e38c653d0535c855298d4830b464cffa4392aac190d650727664f6c7a4aeadf3", "e4aa08e0ecd46e003c37ac5433cd8bd6358f8da7fd94476b266a979d6aebb8f2", "ec22efe84af2124e2d67ffe8262f12b07f696a0fed1dcc05830ab5c312952d23", "ee46d63ced832e85826267a755c5120477c96bef2eb1d9106c5a9622239c3194"],
+        "iocs": {
+            "domain": [{
+                "host": "mokoaehaeihgiaheih[.]ru"
+            }],
+            "file": [{
+                "path": "\\??\\E:\\autorun.inf"
+            }, {
+                "path": "\\??\\E:\\.lnk"
+            }, {
+                "path": "\\??\\E:\\DeviceConfigManager.vbs"
+            }, {
+                "path": "\\??\\E:\\_\\DeviceConfigManager.exe"
+            }, {
+                "path": "%LocalAppData%\\Temp\\edakubnfgu"
+            }, {
+                "path": "%LocalAppData%\\Temp\\gwhroqkhwu"
+            }, {
+                "path": "%LocalAppData%\\Temp\\phqghumeay"
+            }, {
+                "path": "%LocalAppData%\\Temp\\rgjqmvnkyr"
+            }, {
+                "path": "%LocalAppData%\\Temp\\sxstlbzalm.bat"
+            }, {
+                "path": "%SystemDrive%\\DOCUME~1\\ADMINI~1\\LOCALS~1\\Temp\\tinwmbkjsh.bat"
+            }],
+            "ip": [{
+                "ip": "220[.]181[.]87[.]80"
+            }, {
+                "ip": "192[.]42[.]119[.]41"
+            }],
+            "mutex": [],
+            "registry": []
+        }
+    },
+    "Win.Malware.Upatre-6887803-0": {
+        "category": "Malware",
+        "coverage": {
+            "AMP": true,
+            "CWS": true,
+            "Cloudlock": false,
+            "Email Security": true,
+            "Network Security": true,
+            "Threat Grid": true,
+            "Umbrella": true,
+            "WSA": true
+        },
+        "description": "Upatre is a trojan that is often delivered through spam emails with malicious attachments or links. It is known to be a downloader and installer for other malware.",
+        "hashes": ["0166c9039455db0ea98683386b70f50b0112762e382ea4abd1e93b06c92def5e", "0167c644b8865c63304aaee76387e7a6e3b6cb02cc842c8fb8501ee8f77e1289", "07e28bf1b7435b3720b71b7746e4e80500c83be05af84d2d00a029af3a50e12b", "08c11779eaef3d77856505245682b893de88d564cb72c089ba6868a67bb5b615", "098aaeb04eacd88d2f1e015e99ba27bfdfc7a7e546baebe5a7e2973ea906834a", "0faa654f47498dad4ba37edbf51e139b403950901036b4b20965ece482a227b4", "10bc9653e8caa085a6f4c5b8138304322218c038707b0d96370aaf7b763f3c63", "188b97e1357a61019cee3f7f1922f884a8a11e5bd844c244524355053a2a91a6", "1c3ac82f646e2f984514b6a1df33b5cb1afce9822636c3cab7cf22556a215996", "25df09d4d6d8ef905b0024af40e8ca2f28a95c6ffb67bbd5e377d11f2a324b81", "265f68069c3f4f37ba64b18464a9d5ebb6db7c2bcfa43b4f7c3c01e08d8f979b", "27d134dc861c927028d13eebe67b15bf15258fdf58af6f54e2fdf4862bc5332d", "28d4d14611715adf25229f528c5c904c7a476b547d748b54e75e25d453daaca5", "2c7d97a3194c69de640bf7dd22ecc6bb887db6ac45fe51f73e983fd251f75305", "309617ae45a709d3be67aa9e14ec5d00731c6e4ae46960465fea0f4ed7433da4", "32253daaf93f636af8e995ecc02865927affd0f2f403691079040785e90acabb", "34ecfb02a49a5bc13a1872ab9ae31fef8a58b688c87faead979ad242e4bc27d2", "3c1577927878cbb48b0e9d6cf00c031de57af45d019cf3ffb079990cc5f21adc", "40da8071021b3bc12cada1ae026799d035b6b42d7aeca3d82a820e777f5a56fd", "43819962ad29ae185caefd004c718c78503203f643c750904f8fcc4ccb4c21f6", "4b7fac51617a8b03da4061ce21dea06d3ccca2bf06c962dd5222ca8f74731910", "4de920bcddd350ee1571d8cc96ed4875ca92f4095e63147b949859f498ade1dd", "55ec12cd22820605e1e4d28f9bce981434bed569b4677fd16d0ec3f6477839ea", "5a3c39384578544a4ee7f6bc4357b6c1c22d8f08e58181e4f766dabdf07fc3b1", "5f2b23d3795f5ee5be46948471d9ebe3f940e9d90bbd61099f06809770d99659", "60016f0b9e65eb6f8b9121363bf104085f953e9dfb0e44c660ee85420e0bcecd", "653f88d0e172d185e4b74e9276b9786b16f7becbd1f2057a2ac5f5b82253ab60", "691b55d68015a329c5faba4e772c0c8139ed99060a37162f78ff3b38ca496baf", "7543aba041711c3976cc791ae80b69edc50ba97fbdd8add61c58d4ac79918f70", "75b718183cb1e0de3d640dd0fb25244091ab2baddbb85d07781aa6fbc35b1ba3", "7bf7a1100b4467095a52f0a941388ad2059980bd6cc0593ba38f53a55ead57ea", "7c33ddfde6d38b184194c7f19217d895950dfbc83afa41c58fe0782703f8baaa", "7e4902a48b172d52be3f6c5547403553cc52201329fa880b52388ffde7f74022", "7f0abf25389414ab0589a3f61a768a97c85c39d4df8a23859521c0164e5dd901", "808b5cf78ffe9e5867465dc3976544a4750b88a39456c1a8a6d05168759425ca", "8226afec18b1f314b7314f5bd2f624e9c38972e67c2634bee69f54014a79298e", "860ad6c21577f0d439782ef09b7bea4d5031e82f03eaa13693c72c49be6db00d", "88bbfec975ece114d8097182d299d0411a9139490d408bf3890aecc451119059", "965f1047ebb846d1c89fbc40f0aa9671156d37546ecbf66f65c6080c695e4b04", "99a261aec495f7f489820d2fe0f69f976a86f54dd652ffca59556c5622dc62b5", "9a7bcd1de4caf551faf0c921e95c9752b68ff43b227fb00ec8abebd1ef7c2985", "9e168b2bbf2d130fd3d8afa6f9f7b6368d6f0c5ec7c333bf633000a380bce349", "9f13eaaa6c6045748b709bb3ba860cb9543f1651c534897a11234d822b4b3401", "a3e47916fe26e748d979782378e95d531071f18de1ba1d0908bcdf9e01ad23d6", "a5e065946034b70d634323aa18d7a060dcb6bfefe48f6fdc4f454de9d5320c97", "a8f53f2e448f8f16b7243ea8b3efa396d498693626e072f5322e7d7eb1199d7a", "b791da7ad0677c32e0449e6bffa4c2399e5d9d61040ed103d9e0ed2430b32def", "bf5f82f05a4cf7a742adcbacbcd041e0b2448fca9fdf9e63398354544e3994f5", "ce4d506c2f9ddf76aed71dddfcfa045fc3f0da35d7e38e99b61ef5931c1458d7", "cf4b6424f82ba222317494a7461d8375f51a63399af56521605309292d94fc85", "d3d57ebe616887a2b49b9559314ce323c890ed578693bc5824e58f6e6e7f761d", "d59e98c278a2a6bd4d8f0927c26e9f05f30239a13e31489a37958d001b33dc40", "db31872a89eab3fdfda0f85b21179744ab5aa4b55f2507dfe5b0e1bcd7a8ee3d", "dc1bab8ca6e0ff083ee4fe2c96c1876bd5220bdd67995a15e6f58dc5d78bb51a", "dd456121091fe99940aeef9a5fd8d3d144b62653b6d364d44b00d0406d7630ef", "e7f47a3a64e9853c1097cd10cd9b82fa04b190d1995b818c9cd74c43c124d5b3", "e9bf6ac5192a3e92587e5d255716fc43eee54ae17310fac5660b725e9f37470b", "ec5d8728e26600b58cc835f7cd94a963abc347f605c22fbe7f7043cd62cf5002", "eea0e0952eb4f9865b343561eee282c7318d41f3e6baffa28fb4e3974f21cc1c", "f326aa3c15dc8520a19f051d1ebbac0a45da05c460dde2866c54aeea9a5d5a60", "f5db5f9155eb0d1f0d12a5bf22c85a1e275bbc10646f65170bb96edf96e1b955", "f992119ac58f83aa659dce7281773039fd6ccb4b3f40b53eb1d25684b2fcd626", "f9ea1af7a68cdd29b8f15037f3773f839a2e3fabc930d866e1e53b8940f094c7", "fa656ad5ba5c7155ecba649d772c709f5434d9141f28b7bbe4a23acfee381c5d"],
+        "iocs": {
+            "domain": [{
+                "host": "kofinyame[.]com"
+            }, {
+                "host": "www[.]california89[.]com"
+            }, {
+                "host": "pnknjhuxsskskonvohioau[.]info"
+            }, {
+                "host": "vsvkyxofropkfnvxtqu[.]ru"
+            }, {
+                "host": "ypijaiuofuwgijcaqwohzttg[.]org"
+            }, {
+                "host": "mzguonizaiofcwgxnzvwherszlmz[.]com"
+            }, {
+                "host": "nzvoeikvdmpinoozhamd[.]com"
+            }, {
+                "host": "lkbeyypifvcjvxwgsgdrcwkvydrc[.]com"
+            }, {
+                "host": "jsodtcfuieijvpbyfewgyybmpj[.]info"
+            }, {
+                "host": "lndnbibwojvpttjrlheuxby[.]info"
+            }, {
+                "host": "vggaprxwdaqkrlvkeanrjnrwgmj[.]com"
+            }, {
+                "host": "bamfzxfhazxfefylreaytvgulf[.]biz"
+            }, {
+                "host": "eylinjbhuypwgtwqgovwstbyqcpj[.]net"
+            }, {
+                "host": "pzfihbalfharxouokrlcuzxhtpr[.]biz"
+            }, {
+                "host": "zhibylozydfqtukeamzpzppvif[.]org"
+            }, {
+                "host": "lvwodonehibqsdprllgapjoriz[.]biz"
+            }, {
+                "host": "zlursovdmvtgekqwozlwgmhgu[.]com"
+            }, {
+                "host": "vsjfljuktcprpzcixtdamljdqztdy[.]ru"
+            }, {
+                "host": "gebypvkbqstqsscizdheyxpfi[.]com"
+            }, {
+                "host": "ppjjvfmjntoxsttbihhofizofiv[.]ru"
+            }, {
+                "host": "lmzamkfmfaejfkvinkjkjtdznf[.]net"
+            }, {
+                "host": "kfduojjrzxqkirtdgamjydpjtgil[.]net"
+            }, {
+                "host": "skzaegitbqjnxczwvxkciqkxwha[.]biz"
+            }, {
+                "host": "daovdoztdyskzppxkbyiaipr[.]ru"
+            }, {
+                "host": "plphqnbubqifdmjfyekr[.]com"
+            }, {
+                "host": "ayaytgarstgcmgyqhluouoduxp[.]info"
+            }, {
+                "host": "thmxtkrgibmntaqprzusph[.]org"
+            }, {
+                "host": "fyskhabnfxkzxhztpjpzobtwl[.]net"
+            }, {
+                "host": "eawomrwysotslhbudmlbtspbrlv[.]org"
+            }, {
+                "host": "amifxopfwnrpfvnzprculnwomjwo[.]com"
+            }, {
+                "host": "ijpjzqlflonhqsckydtjib[.]com"
+            }, {
+                "host": "hqjbkngeugdmzthvdixhmtd[.]ru"
+            }, {
+                "host": "julnlfxcdlzxssciayeydphq[.]biz"
+            }, {
+                "host": "dyqcdmnameilrprtgefydmvlrkb[.]ru"
+            }, {
+                "host": "usxsplvoaucmcqzhylvydpbvoux[.]net"
+            }],
+            "file": [{
+                "path": "%LocalAppData%\\Temp\\budha.exe"
+            }, {
+                "path": "%SystemDrive%\\DOCUME~1\\ADMINI~1\\LOCALS~1\\Temp\\budha.exe"
+            }, {
+                "path": "%LocalAppData%\\Temp\\kilf.exe"
+            }, {
+                "path": "%LocalAppData%\\Temp\\mciD000.tmp"
+            }, {
+                "path": "%LocalAppData%\\Temp\\mciD212.tmp"
+            }, {
+                "path": "%LocalAppData%\\Temp\\QQQ19A.bat"
+            }, {
+                "path": "%LocalAppData%Low\\yquv.sij"
+            }, {
+                "path": "%AppData%\\Siig\\zuquzi.exe"
+            }],
+            "ip": [{
+                "ip": "172[.]217[.]6[.]228"
+            }, {
+                "ip": "184[.]168[.]131[.]241"
+            }, {
+                "ip": "184[.]168[.]131[.]241"
+            }, {
+                "ip": "68[.]235[.]37[.]83"
+            }, {
+                "ip": "68[.]235[.]37[.]83"
+            }, {
+                "ip": "94[.]64[.]68[.]197"
+            }, {
+                "ip": "190[.]37[.]207[.]199"
+            }, {
+                "ip": "71[.]91[.]43[.]179"
+            }, {
+                "ip": "79[.]187[.]164[.]155"
+            }, {
+                "ip": "63[.]227[.]34[.]28"
+            }, {
+                "ip": "178[.]116[.]48[.]217"
+            }, {
+                "ip": "86[.]135[.]144[.]6"
+            }, {
+                "ip": "94[.]189[.]230[.]78"
+            }, {
+                "ip": "206[.]190[.]252[.]6"
+            }, {
+                "ip": "86[.]140[.]35[.]54"
+            }, {
+                "ip": "59[.]90[.]26[.]49"
+            }, {
+                "ip": "123[.]203[.]139[.]252"
+            }, {
+                "ip": "86[.]158[.]144[.]27"
+            }, {
+                "ip": "75[.]87[.]87[.]199"
+            }, {
+                "ip": "84[.]234[.]151[.]23"
+            }, {
+                "ip": "222[.]96[.]81[.]59"
+            }, {
+                "ip": "172[.]245[.]217[.]122"
+            }, {
+                "ip": "58[.]252[.]57[.]193"
+            }, {
+                "ip": "103[.]14[.]195[.]20"
+            }, {
+                "ip": "108[.]230[.]237[.]240"
+            }, {
+                "ip": "18[.]207[.]122[.]59"
+            }],
+            "mutex": [],
+            "registry": [{
+                "key": "<HKCU>\\Software\\Microsoft\\Umqitiexdeuq",
+                "value_name": null
+            }]
+        }
+    },
+    "Win.Packed.Bladabindi-6888152-0": {
+        "category": "Packed",
+        "coverage": {
+            "AMP": true,
+            "CWS": true,
+            "Cloudlock": false,
+            "Email Security": true,
+            "Network Security": true,
+            "Threat Grid": true,
+            "Umbrella": false,
+            "WSA": false
+        },
+        "description": "njRAT, also known as Bladabindi, is a remote access trojan (RAT) that allows attackers to execute commands on the infected host, log keystrokes and remotely turn on the victim's webcam and microphone. njRAT was developed by the Sparclyheason group. Some of the largest attacks using this malware date back to 2014.",
+        "hashes": ["0081ac22b9b1c8070970ab4d1edfad5cf0df57206ac9f35675ce96c914d9a35e", "009b727284d9b7fb948273254c104ccc07df738f7f9ac4034b8035b11e1c8b73", "02fa5b2eb08fa878de231c1e1aadb8ae890d1205d75c6e78704ccc656072a521", "03574be4fab0b0dfbc4a08474bac9ec5face953e96f274e284d85f23e0394572", "039d0a85df67a302f8403b1ab5d829ad95ca1f6bd16c712fcfff924953aea417", "04eb8ea0cc1e3f1bb8420ffb41ca73650e17647b5a125b4e0b50ebcbe3e2586f", "05e2b0b5b303a6f0a4255728075cd57d6cb9512c6784a3d9841431f81d17fbd1", "07366374c7531cf8931f983c48d200ce64ca9ef1e2b8e7beda93f00494e9c4be", "07bbd30ebede3f32346869773bfffd7a03561a237d0b155659881c6bfcf2bcbe", "087f983881da308a40887d48ff51a47dc2653006b347bad377b06560bdedf54e", "0aafa85fde357b5468bd161e4dbf5ad281f4b65a8a6e8fac8ea61b6b97fb401a", "0ae37610706265b32944bde963a021536ddeb3ef2a46fba7a2dd506a84122aaf", "0af299fa65082907eaf022655a1d297f0bcebf9cc4299fa3e09712b9f6f3638b", "0b3cddec065917def4974c7e6c2db4a68bd66c240afcc6788f042fcf370dda0a", "0b7584dbe453ba56a37362502ad8362c7806ad55f93f459bb1520ba8b7e83260", "0cc3468620a282282493373cab6e0147414ab8b45b9207c135fc0ca2ced4a6a8", "0cc3ec52a4cccd7f66c39b0598ee3cd5057bbae5f76b6f53ba1dc7b244528d7d", "0d833bdb0a327257282952658f4022615da662b26ce96c7d7daa745123b539a7", "0e3f846a7e867311a3a4b5c3cd12e2cf3cd6e53dac743bf169922e5d5522c56b", "0eb558acbf404a8498bd62d39f915dc8878cab06b42110254bb0f95fed1a1cfb", "0f06812951241534a7de2f68d72178512bf8dd2fcaad68fc08361e09d936a0d2", "0f3110996e2c6dcafab54e881b4ae20b79a9a8a9e4bdea4e9282c59dceeba1de", "0fb34201e918d0b82093836b00a3f28e14b915b4458500206054c0ff89ff4386", "10ff1192d5f400ba24dc35c92cf93ee6f4d907f6a91d73960db9de6f9b6d908e", "12ff945a104096e2e33bff767e20f3fa1954261932d5b547632a2fa4b3532fa3", "1556dda2c1259070e7ad7148ab41ebd2b699365600c5e2d50fa58b8649f67f10", "17c434a2e2a56b399fc6a1dcfa624466a23d4eef246dbfda3e5b8f54acc704e1", "185c77a5db7ea55442df7265a3cfa1f50420784fa2253f7c01d262b30cb0f319", "1953f2648e4cbf1849207f0390719be9aac01c1dc3343b47d10f26bc5ebf7dc4", "19f8905c53a7ce1342cb766947fc9c06f7f269dd2997ddbfccdb75dc4c5c8c09", "1b360d1d61717741e5f7557f507eca6a1a5b1e473971bfa6fa81188434308c3a", "1c1618f036b0a4a077659eb3b1156bc25195c93fda45f77ffaf92c6ee6986397", "1c746a632246b688f9508e3cf3f9fcc861a95ed46a1f3118fd937c1e0215d302", "1d2643fda4ec8e5f3fe4cc84313c78e03b9892cab050f58059ec0b244cbb36d5", "1ee73e6ed9ceadff22360b76b6bf041206f5b3a7a0e5dd59e1210089280694bc", "1ee8b08b2b9c7878a242f39e8a3a26dda9060e0ccbdb4f0726aafe00705b1258", "2168552fd54a68e17a60c83d09a8437ce6e0a919fb9e3f0dad8748531f21d1ba", "21d93274d4f29accd0098bc9ef0d0fce8329625403a0f1e3b28e8a075db5af51", "21fac57fa79103959e7ca515c8aa2b9ab83925a04d99c0c4c01893438910c147", "22beed51a66464fce069107b7d0d064f1157433db0328c6e0f581f96f2d7bca6", "259fd5ffa1ec87dadef9e5bf1c225374308ab84d50793cbc20b3b4ccc36206f5", "25cef1598b399db7e1f80bc737d7b295922bf3b44fe6d37957a6dec83a856074", "26ec87c85c922441f41b64102078ada7ae13c27573b3740ee5ee67641e535b2c", "28d96b20c0ccc7e51d202ffa2c7212147ed70336dcd5d153963f1fd712cdf32e", "295519d2c2c63ed58820f694a4dcf3949be4edcc5fe8d29f0ce01dc87470d2dd", "2b6b5177d1885660798a18a13d0074793f02dca83bfc911a70f87b2dcd63f855", "2d9de9e9c77398e1c903be19325ca55672ffd92f82a173dc457d50465d699be1", "2fdffad8c5b4862fa7401fb0a3fb10ae42186e865301cf0b08e152c1c50e0902", "31033d05f7e8d4b8240d069b6eed1de0bec9c91c4caaa5c63dd2d542eaabe735", "322ba8fd590d0bf2e6e500931e3ca7534d0ae6eb0991471658a8f0b5805a6c69", "32b5e2d9c72a9f05513bfdce1b8c1941cc235b7682eb99fc9d680e62372acdd5", "331108fece2a9c97324776b1f7a5baefbef85ed8c1ca1b2bf786b312e004fada", "3378ebbe89e5b9ca149e62e2c925d94087f3124336de0bb6b599dcff9b885f34", "34ec78f4063106c48bbb89f661d2f79a297635e58b904db667fb4ca3ba4721dc", "35818818bcafb7880eb4bc83885f7e1cd73457a6f913cfd43c2e3bfbcc87bc54", "3652b2e982b46dd3c7c20ff1fa3b3cc7c20e7201897d015ec86ed85123a2d387", "36b90360a93f996a4802d22e61dfb1f06fce7c93189fb677b329508215d581ad", "371d6e9a3af6bffd5a7e3e12f4629947ccb8e1eb50b9a539e247c5fefdd51238", "381fed04bdd152eb641de2397bed6f65b9f08c34af1aff8426fa67764b1ee4c1", "387bb5fedeaf2079386404a170f9e83d395bd9a2aa3c698daff5358edbbde7cf", "395d7945871723b7db97e5a2f4e3a47ff5762a2058f9736d17d56562f8ca2d5f", "39a0697ea65d99b3b4254f284e64dc389616ddd685dd8802774e814985c033af", "3a44180e360f9f21042fea1946a4b5247b6947f647df63ef4657137818a525c4", "3c154a3a87a59c12e883dd30111e1cfb9f85e29da948a0483a94cc1227bb86f2", "3d8115cfc5614d63edf1e0bf85fd491d4194e07f89e6bb6c65326b3fd6cc63a7", "3dd679a696234c74768932119315ec35d8d1a5e1a17876f7ee147d15f0c894e7", "3df49e4c3e15bac9581a9a06df26b08407a447c771e8275c841a4e007a1478a6", "3ef80b90f6e31b99802faf1faeb4ca309611ebada8d142529b107583654b5cdc", "3f30acfed4c0d7af3127d688b986c4da7386d6fcc7ae3cc413b6153f26598eef", "420ce6270d4f6da28086457d3d43fd483ac68a67f5e918b3b87b9d5301a9487f", "42e6333e71a5b14f00982e18a3368f3e8e92b6f5b15e34515864f4b0c203a8f2", "433223dd89906972f0b508ec594d610b26072ad3a3be875636e1c3ed847c8478", "43d27b52f86df8e781a1e1b7e8746936fc2b80f64209c5cb1663ad9b8b9e5b9b", "448b176b997e72fdd1295000b688d3c8710319305e8638e35f6ade472b4eac34", "450dc5130861c8a30eaf52844cf657fedf3fe8d00d4615025fb66a629eccd1d0", "4536e44bacfbf088e2936dda081aa71e5828e9d39c5f2b7fe78687c8a44ce5ec", "466806730385b4b0f9463906e7a7fc7000b4958fd532d0977f76128e5052a8e7", "47188c7bfda97e7f9d9b397fc6f95bc784a877c92d2b72c71c0a99def2e0be55", "47bff9783154e6b044d8e60bd8ee1d07cc6d66bba0322229d4c1f93cc2242f5c", "4885ce1f7c9daa3503b28e845b6492c5ccb5ba25054eae092f6df4e0c2277430", "48d62c3901a2024107e0e1b4a19255fbeff2ef3dbd198e8e6a60bceb247feee6", "48eb970e3ff5291cdc4cbf726e720875738e098fc2eea9fd0e46973feaab2981", "48ed73fcde0c93de32b293dc253780147e80029ff626f2fa6dd185ef8070255c", "491b270c2a4949059fdb1172acf1eb5ce37a26b8d18924f94171f4bf872642dc", "49f6536e5c6770c8e4828b1b45f4596d19033497540c78b5f13952179525c855", "4a3f8d76b7bfa136c6f829b9788f426ae7c11886040734186f274a3c7f156039", "4aa93e031b8af8aeae395c1be3cf54ed6ae8a6432cb9eb0b70587f4e859a38d9", "4b1f7784167f3091c11af522349bcd77aeb1209f60eecbd30659ed12811558cf", "4b906c02c4eaa72996336df45f086606e0f675b930b6edd6348dc04cb609d035", "4bfd380a3dde2e4c95a5f5c8038e557ade04c4de871d428a1ecf601a7c2682a6", "4c7c57b6e7e5c1270f48516017327d983c9f6ab9314f7be314994a96b2a3b311", "4d6a89b8efdd3cf5e8f1c30b39bccdcd6b365241541bfe4d669626223cc8d192", "4d922ca6ff21a22702532c52a82b207c7caa4c9e31830d9fab7cd164894d3544", "4e38c4dd90c869a41226d1ebe84b0ff88472f4cd94664ffd4a1f297ba4bee13b", "4fa3a59b99e2dacf3006ffc0c41b84b01762499f731479ddfd7adab7da27ad82", "4fc9cacd5c05503b2f5ff41a9f400462b406dc2f6105559e8690ba073475ebb7", "5059fc83d5ff7729029fa2bb3682126116b15db684db44221c1bd4c73c37bb3d", "51787691976090cab8d930672f338fbdb6616b64fdd5a63a7633372228f359af", "5279d7ce40c209cedbbe49e8c3f72b18209de3e9b4aa5d03fb298173066d039d", "53397e93dc51a215a58193484a92c9720e4199dea7e9e5744b3713e088ac6dd2", "5453a34b546eb6799a44a2f5b5886b5f9f4d1cfb563d2ef7be3cdf7969feaf5c", "54ea9b04ad1d12aeede3f2ff604d5fd65ae970ae4fd1bb9ded88558083eec7b7", "551db85ae7df727dcc4d5d0accf121a79b50886083ef0c216fab09418246a21b", "558b9c38965edc01d4591e7a52d0b4f2bab10749a9a181fb79e40a754aa2e001", "5761d5e7d70f0348b2ebd3e1dbd50e215dfa8347fe27412622cd549b8d71a199", "57ba10950052330635a57dc7143f25d402a0f150175f12802f4d71a0e2ccaa0f", "5885a59a28b165a2ec0c57903b35bc13e4a012d43453a3720fc8bf46ce5426f0", "597de4c031f63f3e8d7c21415305c8a0f31a53074e99da532358cbd574a77ead", "5c5e9a16384bd0ebb46d2911cf4040e46ca47888922dff4e8bf8949e242b45b9", "5d59795c84dfeefff9166a4fb7613298cf0d5fc0a4783b52d0c1769bc33d50f7", "5da64f8e5a92b9e13d9c2db9d72ca9849de167c1303e93ed5a66e01ba674ea7a", "605e117341498afdeca4d84ab3333562f52f1022cfb93a09aca50286cea57de9", "60a76bfb5ee6722546824d7ad9e9e7ca91e83ed489a9465c6a38be399d12f8ae", "60d79245911126dabc44ca451726277103be02ee0c1b6953e4684cc0a437cd5a", "61581e9de94c4bcb6b655f858d8db780f6d8e9550ac361fc20217467bd344854", "61b1cdc824da58b9de4f8c5f148d726eea48e5e99b3b9341ba07f6bbb0b24bcd", "63672ba8935369ad38ac9fa3e67c4426f2eeeb1d97a5ea123c0df14a1b3d6f1c", "6433dc28eb4f9e19f4c1460aeac6830c6d2f54306f1bb78eaf34e6db29016e7e", "64d2af1c8e5ad40b681415aff4159c4ba61f4e1149c49da9052387bf498ca0e8", "65803dfe8fff1214487395bc3d08dad8d0fa3adf62d0925a8aa01cda4e71ae24", "66269d5f58b39f353b435bf5a8307ba98029f5abef00f9d3531d6b066ec840cd", "66b5e4ed7a20ae99df33d5818e0a4c6769caa9f8ac417dc0528916d0d69a608c", "66dc9f6034cdd9d57562fff60084e112c5db221165d687053516b45b6c6e2a4f", "67286a9bf9afd13f4192874840ccf176935edae363193a0ff5dad2231aebd3a0", "6758c9e623f5718322eff3c3a42f8d6cb965728aeaf5aeba755c51c7c490c61a", "6903136648dd2eec5216180855083374c111f6acda3f0c8bc3a36b1f6d2cb2ec", "694ac36ae55349663e6a3011c726ebc69778b58ca3eded758909e2216893d287", "699dfc94e16725d9ff5620c298ecc858c3d8c0e1cb7b30c974b0fdd686bf10d6", "6b71a554ea30ae02265880d75da945cc49c9e2822e0742f960068c7a36d63bac", "6bdc8dd4ceee6e0fdb82e3f6b5ea798940043733c0de9ba765b28244682cdfe9", "6ea08d569920198cac37a1412ac07e55bdb638b12a87ad0c0a99d21c55eac99c", "6f138a52b532b936b73ad454cd55c4ccc486e937d65d19d1aa32906a820e7c3e", "700726cdbc6a152ff679f425502e1a98048a53a03e866684bbaedc0a7d8ec3ed", "708aedd1afab27088d552cd39c8605acfe2b18ba81db98ff9d3a03e687dfc850", "70d891093aee79941d460151e18fc0ffa66e180807e56ad50884b5bc22a6e84a", "7102c4b5554f4ee37cde6317179f3ea54a05ffe4dc145bbf1cc3a1b070fe6ebb", "71e0a41c4da85eb52da8da57344393799c60ffcbf8131b8df67b9451f2978878", "728be49e8df35044af24d1199f76c24dbde385d541d45cab14c0f66aee194e17", "72c828dbba790afe6e679c167c874d6a223ffef5ee78b06498b23b2f92a626eb", "73d1b98083c25496a3e060d4d5a6641599cf67309b29efab88395c3d12f8ec0c", "73f0a34d1a107e0e56c6a23c55bf91fade8b3d49a0f5fda38b253f27e484089b", "761a5615e100093863afb5fbd3f4c4e78ff8d4d2f5781eddae2b818f10673ce5", "761d5ec8071d8d4ce995eab7f87e3f393c8f59aedc6f8602331264c5baf165b5", "766e0862ec36bdf82347e1a3eab210aa94f0da4015204d551fe300e309660f4a", "76fed597b1c31acabd3ee7032c1e113cc191490d9573db92b48d0ade666a605b", "773008cf9a19e5beee26f903299357e6d409e691dbb6cf58843fbe0c522eb598", "78a97ca2f7b147cdb44a7880c880f517559576eff7acc549fc6121622b420a0e", "78b5d7ed094f9cdf20b6b1fd00ef1022636190d51303bfe535415a7e39fab472", "78e3f745967c7bc1883cb2d0259262a5f12fd1edd4a3bcd68f618490d9a43bb8", "7a91dfb65828b7d3618f8afae5454343146d26ae45186e6309ddd474a038318d", "7aa9144c14288b87d75f3070b385468c26769ad15c6e67c22b89e26d837d7750", "7baf0b230498e8216a8b99e61cf67cc725a3faa183ee930d1025d3da1212cfda", "7c27f04ef05d6720a47ebd4207ccf0769e430c255b147fdaf2698b17aa4167e4", "7d0d3e6bd28005f5f5997dc1f43fca24a45940d8c0830afd4bc8d0c2f361db49", "7d6404904db4f5dd8fcdcfa826760e244482075cf6de143fee410268ac48ab6d", "7df1389f0cc808a639ff339c5c4681ab8d36cc7b4d09907385f9dc3889d455d8", "7e194ab45b44b65cac2dee4d9cf75ac672af55c1c00b211ccc3c176b1378474b", "7f53659f1c555ba483a703fda94e4f1a5868efefa250a267d9ccbcd9c9e14db7", "805415a8d60a58cab68afc5668c2f19faab0b67c22cc24de159f2220de5844ea", "806a4a8a71eeb78fe3b60684a5ef3e00b9d601f7595c508075334aa30cda2f13", "8094b0f264b47a0d3c0b6a238b6077c2c90924e3cccf5e6bbd817c6f12ba9ff2", "80ef0432890f783e475a1285b4db692800f9b44b499d2bfdc561f913237b7d37", "828965eca34ba9ace864d57588996e557384a743e17a3b645811ffdc8d6d1946", "828ab4056063055a545a44fe15a420e49953ecd3ef6be3b6bd6ee97824698e4f", "855ad4bb7dd00b56e692a5870bd66b11e3faecf2ade7eed80ebc72c7e50b0aaa", "855b111ea252e7ee0e8fdb6b07317df34bd3e881303979af5b11b0d31ed9c2bc", "863f290d8ba8400c1ec3f411fc120b5d8086beb230f92dcd99a39962f8234e75", "87c4c976e17114c420d252ccf15bcb31d074c371e39412772fc6d755c0f11ae0", "8857cfd3a6be52817c408f151067634dff4ab69f83f53adb70c190b51b852a33", "8ad74a4781ff102409fa0e5a373ac49f4d38d9e06f7d4f8d13b8bedb5c758fe8", "8c334a40e1ee2626cff1fdd0efb2f6b39d4ea92b8e659c86a787cd2249627f82", "8c4ce093202aaed4d5e0fc20bb13bcdfcafe828360d4f44e6255defb9b466acd", "8c97822c23e65ba2216cfdba42d6f3a3c28e59497c0492ed809ce9cdef99e1fd", "8d7a8acf1d9029ef625d2b9e55020ee0269c6d5e671a09f5a7f21681fcdd1d2d", "8f043cca375f295ec941ecebb71ab25da3bf5f8d3d9ae33a944a4a7100d11fbd", "8fe0338ce812b38f32e80d085dc6faab466a3031f96c07ce89a5d7c4a5d3fb7b", "8fea87cf80ce5fe876bf14a13f46a880613d5dfbf21116bfb38744ab17dad9b8", "90233e24b5cf15190a63689f66a6c9d5ecf27c7a330d0f5642af5081cd627c1e", "915a325c5d82f78ca1129b22f63c5be46c71481a039e7c5fdd7c8b46ffdaa1de", "92d1a71c8eb14389bb1c24460dbcb883d479abc3cb15b46a50ce552aaf5d2ae4", "94adb3efc389fd1f92d28606d883fec306ba272dde7d46089a3c10c552ef3e7f", "956f661e54f667dcb87eae383d566b85ccba3c17e5929d6d47eb4f88d393c59e", "9b216637ed0a87434d5c75d7da202844d2ee4b3ee8361df7c6694fde127e12be", "9bfda808e827713e9de21623c11f5775e3a6a5ed89063018c18536087e125ceb", "9ce602ed90d8692662602808839a6d3bb7f303f95f9bf7496b621c6a0d2ce00c", "9d3bc68a72d91307130ff44b7d1b3f6d4943eae085c5858d96dee8e25af974f7", "9e900ade0f3105bb645f32f6570011b1446cb1c2f9d77b9242fa92235247bd52", "9e9c80f233503daf6f34541cefeeec3e4849b96bb68471ea0ae0416ec3f3ee17", "a0415c7677cdf8e5a4e3310bfdc1765fc30a5721fc1fa932888d6c42497da59f", "a1316e5abb92331d63834b4fc31026e3c8229ca7770819854046e73d216cf798", "a228179637475e5af65b7c94d664839d0566eedb34a6574c4c49a5aa402cd2e5", "a5eafb9252e164f36378de5dc4777be90a30fc4e6f32fd203a9291991f9cddcc", "a5eeab252d5b2a1e7e9761a5a60b879a4aeac049697ac0aaeb4daed71237bde3", "a7341411e3ee8f7509a60ae8740c3a23cc373ce982b3da7099317556a330753a", "a763adbfd7cc327a16febec0967a8ebb8b58ef99859869bba2dda492adae0672", "a7bd9ec71202e76d04f7ec8cd7713120ebc71ffe1971b642d58beb67cbd8e2dc", "a900e0a61c42ba96523bd90ad38f3f375cc0e899a9fed93dda64ea4c8fb26419", "a9dd4cb39c398bb2c3aea3010289ae1700d49b9214095c5a14ff33d172aa454b", "aa439ee5aefad390da779e49639ddc2d44bc1d48a6020b614e02ac91279ff7be", "aa621f36b8378c70f2076dae551e6be7141f8afc2641b6ed0e271da1f7c064fe", "ab52e2c69cd254f714c35bfdb1f779e1208807c7416388a378a68bf9dd53f19f", "ab58eb9714867c151ac99da2902d89da0b7fd10adf6e9a1e9faa67bf508a8111", "ab9a36db435ad07f7c4f31d66e263acdcdf4affdb8c69447385f577c6b55e129", "ad864a8727cc1233c7240719ef10a2be070840feb4070ad453106f057707b461", "aecafa32b7f398f1f772a3c40a524994340f5ff361e11578966a0b4deacaca14", "af75221a1c928be47af8447b549086d8323698ff96048d8543213f6018867e8b", "b08927188f583aca04dd8372bec07df722c1649c3856be5302fa642609487537", "b0e5fb077cc65fb7753a4b30740228677fe1c3a4b01d41e5caeea8434ce39281", "b1520bcb40d67bb1e42fcc81157d4311339a6726577e7a809cc9f6e4993cb390", "b213693719f59b3cf7c4c2b46aea40a4ab594eaba10b9fd73e68c247ad1f49c2", "b28775da65264087439f49fe038136df8aef8b525b9faab62c2cb35fe983e8fa", "b2d33ce8f2cb6fc5c8de96e76b037727388d957107a5bd1d5ff629eb9467341c", "b48f4238271ea4d5d470131e9ef98b83d6a1ebf4bedd71b36a0730cb425a95c6", "b4e08aa0decc04cb14385ca876abcf58007fce9740d09d3ce8b13bb1eec85f21", "b4fc2da96eb29c8834a9e99faa07b98a350a924d1b2a4a3f1e54de38bd6887aa", "b5769b4b04f340bbefa1be1bff1ad232808edfbb1c60b9002f3c9117f3667be0", "b645f9b04bedd0b195b6a24f82fc069efc1297fd723e4c0df9fb65f6b3237e8c", "b84cea44efc68b9e26b114360a2634491f12d6048fcfc60c03dd37afc037f3e2", "b891a26604e4a862bc88273fc802d003325404f3a9a6c5ffe04224545fab0c36", "b8afaff78c5c63e760e7383b5d622df66b2c84f973feb75776a109e637639178", "b8afebf458565ef9b329875b86da56be03609c6920b49382932db463bd7c9b46", "b8f85209ef20e4c9d3911a5119070af94d9bbe081151448b8c82f5a5425b2ade", "b984496559937b8e3a877f3ef8cc35294087f5e86d37d66bd65b506426beaf08", "ba78c82cc19ac5ec34bad165221e2a60ae9507eb143aaad418b961f637d0da57", "baf6ccb682593e3000b38bbc8318d3e0a27f27101d8b98ccf0a2e136b8b37748", "bc87149276cd14fecbe8d4354cb84578e8d5c855abcfe9ca6147eba9e9bd7c73", "bd04dea4e197ac78f993a7d6409bfcb0f7ff33ec8786b00ac9c5dd85af2c5ef6", "c013fd99ef7f80dbe66bce437fccbf7ae3a7927293d60ba10fdbcde427877316", "c13986a9b2a9e7e958dd4ceb9b6176f8b92d0080c17ea1010b1e6d13416dadb6", "c148cf53597ec9e2c1740f7cdffca3883cdbdf9f22a1c6696da0a035e253eca1", "c1629292885447a4ef7ac05d2bb1f862a4bd92bfb0eda8b05744e0d81b74c863", "c23589019d5e7b1f7ebc104e344294f808577dff4f2dfa0dcae759d601b212ed", "c30bcdb8df8b744633c406b7726e167e98b75cf339bf6732005305dde42a7f1b", "c5c5c7c1ddf196f8b46b795cf62e978de9b77b689c01137969011810f0151fa0", "c62609325a0bbc4ff8058e1d93d92a616e4c47af3bfe22323cfb752a0f40a149", "c7258529a21961ef11f3747c282b18c54e0a7e14fbce5abebb410d617de073ca", "c7aaf1db6831503111e13dc1c49716fdf8897ec6fb5a38474a8aaf274e3aac97", "c99f3b67bf2bbbaca3d4a5a5d9622063a8a070885075b48e88270efc8f38c8d0", "ca36d3eca4129e8f19fbef8f8a45426ea571996d1ea01b738285e829137b14a4", "cc49963ce84e108f76e789b364ea82754201d6006c2b601c510c25c7da6ad522", "ccd9042fe3409b2d96089839993ff53a49facc23c00a9e4b2cd51e57d229649f", "ce0af47c70c0c390a2e2b189b3399eed96d1aa6b0dbdb02cec8c33dc70a09b5a", "d0441937c3c8ecc7cfabd73c3614725afdb06ab1effb47c30801d2fe85241370", "d0816137def6bdf051261974575e4962f1da3ab03d40ea599a6f9e454e3cc46b", "d435a1b82884ac6c4078890d5bf1fd4ea97e3578ea4aea25f08dec00393569cf", "d48257a6cc6efdf7524a92bdb9ad327a8e0abf769f549affc7aba06fe5ea80d0", "d498f3481b2f37dfd30bf83958569699a886911d0c48eee197033bc39af0a661", "d5f911212daaceb9ceb9190d5154fe5dcfd2dd5bb608cc944ca12bd9026b3bf2", "d67ec423f3c0f0d6fb9e32472584d7987ee7808588675059c9f85237616d54e2", "d6c9ca5df3428706cd5fb460474c347a5699f748fe24992d27033aff9f72c0ef", "d76e529dfe16759a8f34e9a8bbf1dfd76be599a18fe62614ba8d14c434b4fd9f", "dacb38a9e2f026c8769fcddfb2902e937b98ec034e11556af51465f5f603be4c", "dba68f1f9c3611a5c90dd2db2f7b2263cce259fb241150d3441e5ade6f1551da", "dbd09a6c90feaab8807dd722b6a8fe2ec84e3485c13d92c94eb9a32b07d5752e", "dbe4abfc3315e41e626501533a00ad3b4addf11dc84d97c8c9e78b34a6cc2d26", "dc6a6571c26165455deb612ddb11cf9c815009ae4b7832e53583da3bd267e205", "dd58b375bba00b6cb639df7d53df4cef7fd741be97830743d254488f1c9d0979", "dd64feaeafc547407f729b7b3776e9811e346bbe36207f6d0ea1dbd0e92e26e5", "de07df18834b815b199a90b416e1b98564690c8a9be92a59daa9c9b36f852ab9", "e119785343193b795666be4ed1543ff765fd324e81c669025767940288a84723", "e1358aeca2579c872b2431f2690106f6feba736df4b865088c0a7d85d0defb94", "e27707d50b5d5de2f6860a6b63ba0aecb6e36631ec44a8a4790bbaea4774806a", "e60295618a07df70fe15ba3aa8e2f14219c95ce1755f13db28d4261044f4d5c0", "e67d526d8797fbd45ef2b7874a366b4b37418edccf3c400765867c2587b2eb31", "e756f55cbb42faa55887d84315be489ee2fcd24dbb986cf92837084d2929eb6e", "e7689e3a253d5c93f0bdf17cc9f045a33cc1420053f63cb098aed87ac3aa3ef7", "e7ed45708ed8a84045e97c27b5e2ef1ad26e46bcb81dd3a41f29ba89458727b6", "e8be7937d93e6072323683dce6da1323a383efa642558a6f991bb44aa2a28c36", "e8e5dbb70344c831f1a8987b9405438e34667aeae3abf13fef882bf72dedf2b5", "e9a8fee53677ee940f43fec91e9d8db53368e65e7d70a3ba2c6d0341456a10ca", "ea7418de149ecac341cfd0757f6ad6b5489bfd748ed7bcc8ddedfa220c07c4dd", "ecb2639cf1a47d65e22dbc4c49c9619c68f342083de751c82bab1430ce0630f1", "ed6a9ccdbcc12a7f7ae89fbdaf4a94f1e4e551f8a157c02b1a6389c34fc6c850", "edad75a57fe178648771b464e3b550e419f8a608d6a81c264c77c33757a65285", "edcb80919c84cf148d16be694c2a66c9d03fd6ef273105ffa1801d504c4ba36c", "ef2da402c695d9d9b64c732f7c21d5d07d9fc522a169026f77535e6d3e069e8b", "ef481f023cb60ad78a6117b872c4db7bca544a456b52e5b6afc1d61f107b38be", "ef97555c2941a3a4b6870b2ec4eb94d436a73d65b8d90c6f69aa3889cdec6e2d", "f3049848b5f4e15b906b2ef562794e3b2b5d52c4d1aedd7915ce5e39e5fdd415", "f63e887ea8aa0dfa948dd961baf0c357bd68531c35a70998257f9e66f7fdb9c9", "f657683ec8f4b7fbcf8b1c831bd98e31403294e26d8a77ec0c9195040397571c", "f6823c5f69476ed7f947e2211b2549532645166d9c64aa11ea2b5cf1be1bb215", "f6a5d1db05dd1c7756e3b65d9e3c9372f62a0c8c6cbac332feb3f34587c42a78", "f83df11686189e588a6f00cfb841ea823598b337e98b351e2310a47cd6aab25a", "f98d1261bb2993857050cde80bab4923ced1be20efea0a9a5e51cfbf1a3a0784", "fa69befd4693c39a7689dcc708abd81a0081b931f7c9d5173280a793ca31bd75", "fa8a77372c06593e1a7af74635012b0a1b48bf1e7a596eec421b902c5c6b6fe0", "fa8f146110ddad38bb4899d769413746110f5fe6ebd3d23868c2bfc315f33b4b", "fc6a099be9d547147cd63eb0be8ce7f732f4f35ffa841b3896f51ac3c83668e0", "fc6edf77eea025ff4b1c1f7afa3ba3a1787db21f246e6882eaab1df961e910b5", "fca82b28f21fd62e51f6b83ac08c92c486b77e168f9b4868f47fa88eb3bab4a3", "fca8ccc9fb268241c29246b5ec8837ffad677352b2e18bebed08654ec2279ee9", "fdf7f77e298d5dfed1dc7973ad11b6617eb682f287c492fa06074583a942195a", "fe5c66a27289cba457676a23916986d1f9952553486f937ff764dc7dea04634a", "ff16c97217a82f6c73a2a7f1cad293715188e72415bce6963885ecd79e2f10bf", "ff7067884e747740b315f8840bafb3e650138ca947f77d8291bf982c94300c1b", "ffb38aa04db4990c08e6797508f1a328ce1c1e04a71cf41e8166cf50cbd8e163", "ffe7e06cb93be3bab4b5c42d9ebaec45eabd2f903b24e4ea286bd1a65d80fe68"],
+        "iocs": {
+            "domain": [{
+                "host": "paste[.]ee"
+            }, {
+                "host": "pastebin[.]com"
+            }, {
+                "host": "mine[.]moneropool[.]com"
+            }],
+            "file": [{
+                "path": "%System32%\\Tasks\\Administrator"
+            }, {
+                "path": "%LocalAppData%\\Administrator_.jpeg"
+            }, {
+                "path": "%LocalAppData%\\MQMQ"
+            }, {
+                "path": "%LocalAppData%\\_foldernamelocalappdata_\\msrating32.exe"
+            }, {
+                "path": "%LocalAppData%\\_foldernamelocalappdata_\\msrating32.exe.config"
+            }, {
+                "path": "%WinDir%\\Tasks\\Administrator.job"
+            }],
+            "ip": [],
+            "mutex": [{
+                "name": null
+            }, {
+                "name": null
+            }, {
+                "name": null
+            }],
+            "registry": [{
+                "key": "<HKCU>\\Software\\5cd8f17f4086744065eb0992a09e05a2",
+                "value_name": null
+            }]
+        }
+    },
+    "Win.Packed.Kovter-6888122-0": {
+        "category": "Packed",
+        "coverage": {
+            "AMP": true,
+            "CWS": true,
+            "Cloudlock": false,
+            "Email Security": true,
+            "Network Security": true,
+            "Threat Grid": true,
+            "Umbrella": true,
+            "WSA": true
+        },
+        "description": "Kovter is known for it's fileless persistence mechanism. This family of malware creates several malicious registry entries which store its malicious code. Kovter is capable of reinfecting a system even if the file system has been cleaned of the infection. Kovter has been used in the past to spread ransomware and click-fraud malware.",
+        "hashes": ["0266eb0181e6d3cd1112bd582f87711cd0dddc3131f8cd961ef38911958d4d83", "037ac73363dda68d628670db90cf1d5baee2614545c633fe7a5ef80ded8833d3", "04052b00ab52dbb2bbbadc9b60122437dfcf1b82a399e1bd6dc868a7764e1622", "0446028c1c63060111c2f507ade24abf198eeb990c853f75fc285ab55e7e93c4", "0ea33d1365678ed238613d44f6154b3090728b073cbab653bd0cb851be70b357", "112e3cd76f74cc5611da59df8b3d07ef643915dc118bc8a8fa7ec6470c3c2918", "13c46670e8501c9de948fb75a227486299afc6c9f195979a304a3d89bd0f2860", "1d4cd9c8380430ea3786fd0a3ebb2f369b4db7779662eaf85997876708f5e0ed", "25ad560fdec751db9190cdaa21467ade949e5f555a213a583c0d59b809d1ffea", "263e9704f5d4d81c9de6459df0e3bb07571a94e96eaaf6e7978466e83c804c77", "29f77d861fcea9116cc943b853a54b44449e9f3722e692c8216ec223b96d2b3e", "3d27db6491de2111b9e47776e7b8913d37f967bd592f0d8b15d8b2abf25fe5c8", "45ce1cdd1f531667e6ec61341890d2ce5d6dc8ef827cd8b87fa90c1b482a864c", "476ba0cafaf6caab3d3065c54088cdbeaaf62581e371aa6b7a5add2c66a4c63b", "4c30f1f40076abac7cd30ed0f1a586d841d5f8e619bec01ed415d7dc181e0e7b", "4eda50c6c2b19e0871a703d29573c819b16581e59e76743eff31c8581a4f1479", "5015414e220101ebebef92b8780cebd51e41ba04f6e880a531807f96a58bf463", "511802d4ba18e098a313a7b5f21adf485632352ad84e9bb9620b85451cc8738e", "528c4c72ddc84ff3c6cba7ff634b9444c639b5eb435dbac1eb085a6e20531b89", "5297a054165c283ecc468f500eeadadf21fa0f8fedbe678cf94c578a134b5b2f", "530cb7062f46e9778d8797930d114f685f1ecd161a20e930c4649682e32758ee", "5f65eb86f57c979ed006ae5c8f1eddd52729a09f1a80efb092f10ccfa3a7dc99", "61bc6c41e2184f6c876d11d786bd83bcf330b2f867471457e295ed7e9bf6a4e1", "690f078af59858cd6d1ebf87104f84831c75eb3eb00c36cfc5a40af4cf52ee97", "6cf0017b223337ea77ec0a6452fcd68b3d5f79006212baadef5dc1ae8deabaf5", "703f88897808eb0bd17dcbdf6b53711754ddcc2078ad4df484669cf2d91b2f9c", "7b51d38f1fa6e9752b8236bc74a69803acb4dcdca5ade88e8aa315212583f838", "7c2573742d37b4b6ca91b0daa6ce3117f6092273ea8521dcda3f04e60a3361ab", "7eaae71a55b40c24bccce6e7e57347c70e61c70200e0fc18b93cbc1b67cbba78", "83b3bccec6b735b6646e2208325a66a94ab541eff5655cfa661d4f99bded3e3b", "84b78fa481c97d6950892332744bbc8488c3bd804990c4cb4e62d46bf50c0353", "8dd8ad4c5b35936800d01e164b1fd263a057b0cdb9b8f7888776d1d80d5a6778", "9220539fc758cf1ce17c5e3bee9d80d5c5c6d727c07d1f98c72ac2761fe34468", "94b9744e934264f1c8ce0b94fa024653b493d68d1bae6cfa31cad002e4afd02d", "9785893b75f092825c842d579891c92b51daa067c2b52b451f661879dfbab3fd", "9bb9a87ce0f61b4eb29486f5dbc99a534949f0cb1eb47919d83eb0eb8373b78c", "9c1cf14bffc64097e36eb5a7fded02485593251e70093b5fdea432e5fd804d4f", "9dba6b6415ce001ce916cf97dd4896ec49c725c4a205537f6295d01de04ca9aa", "a0ad2daa96bfd932127122e268f0b17bb952ca1bc7ecd2f2f3a1d8f8f0be408a", "a19a219673b4259d3894c12af50dcbbbaeb28bcb374d559175fc0893f3977534", "a460cf44573efbe6d30d289055c8d689a273e65c5c9daba4d9eb98a00b09f3db", "ad4f12ee7b59f22e1fe8c918e6048b8a68c0a3a0b5bc52b442b50e96249e2aeb", "be4a2a4ea5749cbf7320a4d06fe0a049e045b9aa131189b1eb161937f07e8eb8", "c0e98640fa2b5f1a41859b72312f699ef82111194f658b8e47c9db158dd1c5eb", "c117294ed2d1727f67e8791a64588a524464ff8afddb1d9bca2236113932ec9f", "c3b50ba9df8aa00bcb75b06fe45b572fba69959727b06047c6a5ceedac7bd110", "c4e6c575e7d53110182ee570b6490f4d8cc1d6cb1e543a4f8ca1af26ddd47721", "c58852b206103e6063afa6fff8a4cf3e61f4f325625d130041196c5ed841d44f", "cdd50598691c8310e7db28d8f1c91a2640e8a7a80fba5c75eb77ae15d3842472", "ce7dba847466246138bb922f299e4502a2a66239b83f4e7a2350dabaf9d00368", "d0e15075f987a478d157bd80801b863f8d646ce386d32f2ce5f031cca2fb6c5b", "dc2faceed1fd3bd308bad5cc19ff1dfb59ce05949a2f952abec53168a3cb2668", "e1325f10f165a5cf6b4edc3c9789936dbf2475177b90f462e783cb6623044b79", "e45bf81530fc248b720aca5bdc336cc10d900043c24a305a75c5f5f7efe72c5f", "e50585a7a3e86f98be422dfd12f94493073541905ed1c3534eac50c647d66f0c", "e6b4ed84efc5d6fa8dc9138ec19f539dbc9c3d0cec0122ab9536e668b34d9b55", "e732816cd5e7264a43247570a372b5828671da8d0b57aed0f2d9793da84c4a8f", "e73a2a8aec6fee2c5bd23e99ec6b2255eff8cc13a2285564457f01c63ad6b8cb", "ee9e0786e68a5de7c7f183540c7c1535ddb166ffc32c2582e55de29993883489", "f50bf55eb24e2641c768618d4fcb47d9c683073eef3c027c6c7f8f77838632d0", "f55743c48d410cb4d9e96df88fd1d28b009a8291b3ead53ae946182ed8ba64ee", "fef511d93fd430f64084ef68dfbce879dd347b6100287d55d9375d3af574ce8f", "ffac95320d580556901d50da62dc375ee5a5395c3e5d1d471ddc1194061ed047"],
+        "iocs": {
+            "domain": [{
+                "host": "a15-smo[.]biz"
+            }],
+            "file": [{
+                "path": "%AppData%\\Microsoft\\Protect\\S-1-5-21-2580483871-590521980-3826313501-500\\5731e7cd-8311-408b-8f7b-20cabfeabcac"
+            }, {
+                "path": "%AllUsersProfile%\\Microsoft\\{aeb72b63-4072-2739-ee13-f68145a36fd1}\\{aeb72b63-4072-2739-ee13-f68145a36fd1}.exe"
+            }, {
+                "path": "%AllUsersProfile%\\Microsoft\\{1ddc6d11-74a9-a07d-cfb7-a965c7d68cea}\\{1ddc6d11-74a9-a07d-cfb7-a965c7d68cea}.exe"
+            }],
+            "ip": [],
+            "mutex": [{
+                "name": null
+            }, {
+                "name": null
+            }, {
+                "name": null
+            }, {
+                "name": null
+            }, {
+                "name": null
+            }, {
+                "name": null
+            }, {
+                "name": null
+            }],
+            "registry": []
+        }
+    },
+    "info": {
+        "origin": "Cisco Talos Intelligence Group",
+        "publication_date": "2019-03-15T13:09:10+00:00",
+        "version": "1.0",
+        "warning": "As a reminder, the information provided for the following threatsin this post is non-exhaustive and current as of the date ofpublication. Additionally, please keep in mind that IOC searchingis only one part of threat hunting. Spotting a single IOC does notnecessarily indicate maliciousness. Detection and coverage for thefollowing threats is subject to updates, pending additional threator vulnerability analysis. For the most current information, pleaserefer to your Firepower Management Center, Snort.org, or ClamAV.net."
+    },
+    "signatures": ["Win.Malware.Emotet-6888316-0", "Win.Packed.Bladabindi-6888152-0", "Win.Packed.Kovter-6888122-0", "Win.Malware.Ircbot-6887900-0", "Win.Downloader.Dofoil-6887823-0", "Win.Malware.Upatre-6887803-0"]
+}
